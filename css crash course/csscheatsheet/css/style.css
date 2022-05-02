@@ -26,6 +26,13 @@ a:hover{
     color:red;
 }
 
+a:active{color: green;}
+
+a:visited{
+    color:black;
+}
+
+
 .container{
 
 margin: auto;
@@ -82,7 +89,13 @@ border-radius: 15px;
     text-align: center;
 }
 .categories ul{
- padding: 40px;
+ padding: 0px;
+ padding-left: 6px;
  list-style:square;
 
+}
+.categories li{
+    padding: 6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../images/check.png');
 }
